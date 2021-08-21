@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mac Book Pro</title>
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+    <main>
+        <div class="image">
+            <img src="images/mac.png" alt="" />
+        </div>
+        <div>
+            <section class="description-section">
+                <div>
+                    <h1 class="big-title">
+                        Customize your Blue 24-inch iMac with Apple M1 chip
+                    </h1>
+                    <p class="para-title">
+                        Experience the power and performance of the Apple M1 Chip with the Blue Apple 24" iMac. The Apple M1 integrates the CPU, GPU, Neural Engine, I/O, and more into a single system on a chip (SoC). Tackle your projects with the fast 8-Core CPU and take on
+                        graphics-intensive apps and games with the 8-Core GPU. Accelerate machine
+                    </p>
+                    <div id="buttons">
+                        <h3 class="title">Memory</h3>
+                        <div>
+                            <button type="button" id="initial-memory" class="button">8GB unified memory</button>
+                            <button type="button" id="upgrade-memory" class="button">16GB unified memory</button>
+                        </div>
+                        <h3 class="title">Storage</h3>
+                        <div>
+                            <button type="button" id="initial-storage" class="button">256GB SSD storage</button>
+                            <button type="button" id="upgrade-little-storage" class="button">512GB SSD storage</button>
+                            <button type="button" id="upgrade-full-storage" class="button">1TB SSD storage</button>
+                        </div>
+                        <h3 class="title">Choose your delivery option</h3>
+                        <div>
+                            <button type="button" id="free-shipping" class="button">
+                Friday,Aug 25 FREE Prime Delivery
+              </button>
+                            <button type="button" id="paid-shipping" class="button">
+                Friday,Aug 21 Delivery Charge $20
+              </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="price-section">
+                <div class="price-section-flex">
+                    <h4>Best Price</h4>
+                    <h4>$1299</h4>
+                </div>
+                <hr />
+                <div class="price-section-flex">
+                    <h4>Extra Memory Cost</h4>
+                    <h4>$<span id="memory-cost">0</span> </h4>
+                </div>
+                <hr />
+                <div class="price-section-flex">
+                    <h4>Extra Storage Cost</h3>
+                        <h4>$<span id="storage-cost">0</span></h3>
+                </div>
+                <hr />
+                <div class="price-section-flex">
+                    <h4>Delivery Charge</h3>
+                        <h4>$<span id="delivery-charge">0</span></h3>
+                </div>
+                <hr class="bold-hr" />
+                <div class="price-section-flex">
+                    <h4>Total Price</h3>
+                        <h4>$<span id="total-price">1299</span> </h4>
+                </div>
+                <hr />
+                <div>
+                    <h3>Add Promo Code</h3>
+                    <div class="promo-section">
+                        <input id='discount-input' type="text" id="" />
+                        <button id="discount-button" type="button">Apply</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <hr>
+        <h1>Total: $<span id="total-with-discount">1299</span></h1>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+    </body

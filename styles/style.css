@@ -1,0 +1,100 @@
+/* google font  */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* style the body  */
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* main section style */
+
+main {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.image img {
+    width: 350px;
+    height: 300px;
+    margin-right: 50px;
+}
+
+
+/* description section style  */
+
+.big-title {
+    font-size: 1.3em;
+}
+
+.para-title {
+    font-size: 1em;
+}
+
+.title {
+    margin-bottom: 0px;
+}
+
+.button {
+    padding: 5px 12px;
+    background-color: white;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+/* price section style  */
+
+.price-section {
+    margin-top: 50px;
+}
+
+.price-section-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    margin: 0px;
+}
+
+.bold-hr {
+    border: 2px solid black;
+}
+
+.promo-section {
+    display: flex;
+    margin-top: 20px;
+}
+
+.promo-section input {
+    width: 200px;
+    padding: 5px 5px;
+    margin-right: 10px;
+}
+
+.promo-section button {
+    padding: 5px 12px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+/* footer section style */
+
+footer {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+footer h1 {
+    text-align: center;
+}
