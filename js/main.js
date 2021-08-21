@@ -13,15 +13,18 @@ function updateTotalPrice() {
     const delivery = document.getElementById('delivery-charge');
     const deliveryCharge = parseInt(delivery.innerText);
     const total = document.getElementById('total-price');
+    // sum all cost with best price 
     total.innerText = 1299 + memoryCost + storageCost + deliveryCharge;
     const totalWithDiscount = document.getElementById('total-with-discount');
     const totalWithDiscountAmount = total.innerText;
     totalWithDiscount.innerText = totalWithDiscountAmount;
     const discountInput = document.getElementById('discount-input').value;
+    // discount check 
     if (discountInput === 'stevekaku') {
         totalWithDiscount.innerText = totalWithDiscountAmount * .8;
     }
 }
+// handle with buuble event
 document.getElementById('buttons').addEventListener('click', function(event) {
     const clickedId = event.target.id;
     if (clickedId == 'initial-memory') {
